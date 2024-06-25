@@ -1,0 +1,171 @@
+body{
+    background-color: hsl(148, 38%, 91%);
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+.center-card{
+    background-color:  hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.contact-us{
+    color: hsl(187, 24%, 22%);
+    margin-left: 25px;
+
+}
+.names-div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: hsl(187, 24%, 22%);
+    margin-left: 25px;
+    gap:10px;
+}
+.names-div input{
+    border-radius: 5px;
+    height: 35px;
+    width: 300px;
+    border-style: none;
+    border: 1px solid hsl(169, 82%, 27%);
+    margin-top: 10px;
+    cursor: pointer;
+}
+.asterisk{
+    color: hsl(169, 82%, 27%);
+    font-weight: 900;
+}
+.email-div{
+    color: hsl(187, 24%, 22%);
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.email-div input{
+    border-radius: 5px;
+    height: 35px;
+    width: 646px;
+    border-style: none;
+    border: 1px solid hsl(169, 82%, 27%);
+    margin-top: 10px;
+    cursor: pointer;
+}
+.query-div{
+    color: hsl(187, 24%, 22%);
+    margin-left: 25px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-bottom: 20px;
+}
+.general-enq-div, .support-req-div{
+    border: 1px solid hsl(169, 82%, 27%);
+    border-radius: 5px;
+    width: 300px;
+    height: 35px;
+    display: flex;
+}
+.general-enq-div input, 
+.support-req-div input{
+    margin-left: 20px;
+    color: hsl(169, 82%, 27%);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#general-enq, #support-req{
+    margin-left: 10px;
+    margin-top: 7px;
+}
+.message-label{
+    color: hsl(187, 24%, 22%);
+    margin-left: 25px;
+    margin-top: 30px;
+}
+#msg-textarea{
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: 25px;
+    border-color: hsl(169, 82%, 27%);
+    cursor: pointer;
+}
+.consent-div{
+    color: hsl(187, 24%, 22%);
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.submit-btn{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(169, 82%, 27%);
+    border-style: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 640px;
+    margin-left: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    display: none;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.modal-content {
+    background-color: hsl(187, 24%, 22%);
+    margin: 1% auto;
+    padding: 5px;
+    border: none;
+    width: 80%;
+    max-width: 420px;
+    height: 90px;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+}
+
+.check {
+    color: hsl(148, 38%, 91%);
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.check:hover,
+.check:focus {
+    color: hsl(148, 38%, 91%);
+    text-decoration: none;
+    cursor: pointer;
+}
+#alertMessage{
+    color: hsl(148, 38%, 91%);
+    font-weight: 700;
+    margin: 10px;
+    margin-right: 200px;
+}
+#alertPassage{
+    color: hsl(148, 38%, 91%);
+    font-weight: 200;
+    margin: 10px;
+}
